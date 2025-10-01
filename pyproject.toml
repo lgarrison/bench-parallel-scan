@@ -1,0 +1,14 @@
+[project]
+name = "rrubenzahl-scan"
+version = "0.1.0"
+requires-python = ">=3.11.11"
+dependencies = [
+    "astropy>=7.1.0",
+    "click>=8.3.0",
+    "cuda-cccl[cu12]>=0.2.1",
+    "cupy-cuda12x>=13.6.0",
+    "jax[cuda12,cuda12-local]>=0.7.2",
+    "matplotlib>=3.10.6",
+    "pyperf>=2.9.0",
+    "typing-extensions>=4.15.0",
+]

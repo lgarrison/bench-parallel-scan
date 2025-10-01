@@ -1,0 +1,13 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: method, datatype: string}
+# - {name: N, datatype: int64}
+# - {name: time, datatype: float64}
+# schema: astropy-2.0
+method N time
+thrust 10000 6.480852721324482e-05
+thrust 100000 0.00016650075485813431
+thrust 1000000 0.0010006299417000264
+thrust 10000000 0.008339893509401008
+thrust 100000000 0.06458741170354187

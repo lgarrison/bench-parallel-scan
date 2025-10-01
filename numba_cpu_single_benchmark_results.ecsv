@@ -1,0 +1,13 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: method, datatype: string}
+# - {name: N, datatype: int64}
+# - {name: time, datatype: float64}
+# schema: astropy-2.0
+method N time
+numba_cpu_single 10000 7.281242869794369e-05
+numba_cpu_single 100000 0.0006492326319857966
+numba_cpu_single 1000000 0.006391850532963872
+numba_cpu_single 10000000 0.06870737345889211
+numba_cpu_single 100000000 0.46495372941717505
